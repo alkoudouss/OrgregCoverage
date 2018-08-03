@@ -219,13 +219,6 @@ THE LENS WAS CREATED as http://risis.eu/lens/union_Orgreg_20170718_Eter_2014_Gri
 
 THE LENS WAS CREATED as http://risis.eu/lens/union_Orgreg_20170718_Amadeus_Eter_2014_Grid_20180625_H2020_2017_LeidenRanking_2015_Orgref_20180301_P1951854249. With initially 6243 triples loaded, 0 duplicated triples were found and removed.
 
-|
-| --- |
-
-| SRC DATASET | SRC PROPERTY | TRG DATASET | TRG PROPERTY | DISCOVERED |
-| --- | --- | --- | --- | --- |
-| ORGREF |  |  |  |  |
-
 
 ## SPARQL QUERY
 
@@ -250,9 +243,9 @@ BIND(lens:union_Orgreg_20170718_Eter_2014_Grid_20180625_H2020_2017_LeidenRanking
 }
 ```
 
-| discovered |  |
-| --- | --- |
-| 2628 |  |
+| discovered |
+| --- |
+| 2628 | 
 
 -   DISTRIBUTION PER TYPE OF THE DISCOVERED
     
