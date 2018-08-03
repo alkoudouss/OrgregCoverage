@@ -127,12 +127,12 @@ Adding data from file: D:\Linking2GRID\Data\Countries\location_1.ttl
 -   ETER
     
 
-| SRC DATASET | SRC PROPERTY | TRG DATASET | TRG PROPERTY | DISCOVERED |  |
-| --- | --- | --- | --- | --- | --- |
-| ORGREG | English_name_of_entity | ETER | English_Institution_Name | 1810 |  |
-| ORGREG | English_name_of_entity | ETER | Institution_Name | 383 |  |
-| ORGREG | Name_of_entity | ETER | English_Institution_Name | 354 |  |
-| ORGREG | Name_of_entity | ETER | Institution_Name | 1790 |  |
+| SRC DATASET | SRC PROPERTY | TRG DATASET | TRG PROPERTY | DISCOVERED |
+| --- | --- | --- | --- | --- |
+| ORGREG | English_name_of_entity | ETER | English_Institution_Name | 1810 |
+| ORGREG | English_name_of_entity | ETER | Institution_Name | 383 |
+| ORGREG | Name_of_entity | ETER | English_Institution_Name | 354 |
+| ORGREG | Name_of_entity | ETER | Institution_Name | 1790 |
 
 LENS BY [UNION]: ORGREG - ETER - APPROX 0.8 = [1990]
 
@@ -143,12 +143,12 @@ LENS BY [REFINE]: ORGREG - ETER - EXACT COUNTRY CODE = [1905]
 -   GRID
     
 
-| SRC DATASET | SRC PROPERTY | TRG DATASET | TRG PROPERTY | DISCOVERED |  |
-| --- | --- | --- | --- | --- | --- |
-| ORGREG | English_name_of_entity | GRID | altLabel | 161 |  |
-| ORGREG | English_name_of_entity | GRID | label | 1946 |  |
-| ORGREG | Name_of_entity | GRID | altLabel | 351 |  |
-| ORGREG | Name_of_entity | GRID | label | 677 |  |
+| SRC DATASET | SRC PROPERTY | TRG DATASET | TRG PROPERTY | DISCOVERED |
+| --- | --- | --- | --- | --- |
+| ORGREG | English_name_of_entity | GRID | altLabel | 161 |
+| ORGREG | English_name_of_entity | GRID | label | 1946 |
+| ORGREG | Name_of_entity | GRID | altLabel | 351 |
+| ORGREG | Name_of_entity | GRID | label | 677 |
 
 LENS BY [UNION:] ORGREG - GRID- APPROX 0.8 = [2522]
 
@@ -159,9 +159,9 @@ LENS BY [REFINE]: ORGREG - GRID- EXACT COUNTRY CODE = [1975]
 -   ORGREF
     
 
-| RC DATASET | SRC PROPERTY | TRG DATASET | TRG PROPERTY | DISCOVERED |  |
-| --- | --- | --- | --- | --- | --- |
-| ORGREG | English_name_of_entity | ORGREF | name | 1262 |  |
+| RC DATASET | SRC PROPERTY | TRG DATASET | TRG PROPERTY | DISCOVERED |
+| --- | --- | --- | --- | --- |
+| ORGREG | English_name_of_entity | ORGREF | name | 1262 |
 | ORGREG | Name_of_entity | ORGREF | name | 282 |
 
 LENS BY [UNION: ORGREG - ORGREF - APPROX 0.8 = 1355
@@ -173,10 +173,10 @@ LENS BY [REFINE: ORGREG - ORGREF- EXACT COUNTRY CODE = 1012
 -   LEIDEN RANKING
     
 
-| SRC DATASET | SRC PROPERTY | TRG DATASET | TRG PROPERTY | DISCOVERED |  |
-| --- | --- | --- | --- | --- | --- |
-| ORGREG | English_name_of_entity | LEIDEN | actor | 514 |  |
-| ORGREG | Name_of_entity | LEIDEN | actor | 167 |  |
+| SRC DATASET | SRC PROPERTY | TRG DATASET | TRG PROPERTY | DISCOVERED |
+| --- | --- | --- | --- | --- |
+| ORGREG | English_name_of_entity | LEIDEN | actor | 514 |
+| ORGREG | Name_of_entity | LEIDEN | actor | 167 |
 
 LENS BY [UNION]: ORGREG - LEIDENRANKING - APPROX 0.8 = [580]
 
@@ -187,10 +187,10 @@ LENS BY [REFINE]: ORGREG - LEIDENRANKING - EXACT INTERMEDIATE [COUNTRY CODE] VS 
 -   H2020
     
 
-| RC DATASET | SRC PROPERTY | TRG DATASET | TRG PROPERTY | DISCOVERED |  |
-| --- | --- | --- | --- | --- | --- |
-| ORGREG | English_name_of_entity | H2020 | name | 247 |  |
-| ORGREG | Name_of_entity | H2020 | name | 689 |  |
+| RC DATASET | SRC PROPERTY | TRG DATASET | TRG PROPERTY | DISCOVERED |
+| --- | --- | --- | --- | --- |
+| ORGREG | English_name_of_entity | H2020 | name | 247 |
+| ORGREG | Name_of_entity | H2020 | name | 689 |
 
 LENS BY [UNION]: ORGREG - H2020 - APPROX 0.8 = [759]
 
@@ -201,10 +201,10 @@ LENS BY [REFINE]: ORGREG - H2020- EXACT COUNTRY CODE = [710]
 -   Amadeus
     
 
-| RC DATASET | SRC PROPERTY | TRG DATASET | TRG PROPERTY | DISCOVERED |  |
-| --- | --- | --- | --- | --- | --- |
-| ORGREG | English_name_of_entity | Amadeus | Companyname | 39 |  |
-| ORGREG | Name_of_entity | Amadeus | Companyname | 160 |  |
+| RC DATASET | SRC PROPERTY | TRG DATASET | TRG PROPERTY | DISCOVERED |
+| --- | --- | --- | --- | --- |
+| ORGREG | English_name_of_entity | Amadeus | Companyname | 39 |
+| ORGREG | Name_of_entity | Amadeus | Companyname | 160 |
 
 LENS BY [UNION]: ORGREG - Amadeus - APPROX 0.8 = **[165]**
 
