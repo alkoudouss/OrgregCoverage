@@ -97,6 +97,7 @@ Adding data from file: D:\Linking2GRID\Data\Countries\location_1.ttl
 | ETER | UNIVERSITY | 2764 |
 | H2020 | ORGANIZATION | 16621 |
 | COUNTRIES | COUNTRY | 249 |
+| AMADEUS | COMPANY | 56984 |
 
 
 ## DATASETS AND IDENTITY PROPERTIES
