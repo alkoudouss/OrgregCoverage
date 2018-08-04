@@ -102,7 +102,7 @@ Adding data from file: D:\Linking2GRID\Data\Countries\location_1.ttl
 
 ## DATASETS AND IDENTITY PROPERTIES
 
-| DATASET | PROPERT |
+| DATASET | PROPERTY |
 | --- | --- |
 | ORGREG | English_name_of_entity |
 | ORGREG | Name_of_entity |
