@@ -2,8 +2,6 @@
 
 This note documents how the Lenticular Lens was used for linking entities from []OrgReg] to five other open datasets [GRID, ORGREF, ETER, H202 AND LeidenRanking]. We first linked entities based on their respective mentioned using a string approximation algorithm with a threshold of 0.8. We then refines all the dicovered links based on the organisation's country.
 
-Three of the datasets [GRID - ETER AND ORGREF] ARE DESCRIBED USING
-
 
 ## 1. GRID 2018-06-25
 
