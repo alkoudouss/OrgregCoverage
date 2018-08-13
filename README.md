@@ -225,9 +225,9 @@ THE LENS WAS CREATED as http://risis.eu/lens/union_Orgreg_20170718_Amadeus_Eter_
 
 ```sql
 ### TOTAL NUMBER OF ORGREG RESOURCES MATCHED
-PREFIX data: 
-PREFIX lens: 
-PREFIX opre: 
+PREFIX data: <http://risis.eu/dataset/>
+PREFIX lens: <http://risis.eu/lens/>
+PREFIX opre: <http://risis.eu/orgreg_20170718/ontology/predicate/>
 
 SELECT  (COUNT(DISTINCT ?src_a) AS ?discovered) # ?src_a ?src_b
 {
@@ -250,9 +250,9 @@ BIND(lens:union_Orgreg_20170718_Eter_2014_Grid_20180625_H2020_2017_LeidenRanking
 
 ```sql
 ### TOTAL NUMBER OF ORGREG RESOURCES MATCHED
-PREFIX data: 
-PREFIX lens: 
-PREFIX opre: 
+PREFIX data: <http://risis.eu/dataset/>
+PREFIX lens: <http://risis.eu/lens/>
+PREFIX opre: <http://risis.eu/orgreg_20170718/ontology/predicate/>
 
 SELECT  ?orgregType (COUNT(DISTINCT ?src_a) AS ?discovered)  # ?src_a ?src_b
 {
@@ -280,9 +280,9 @@ SELECT  ?orgregType (COUNT(DISTINCT ?src_a) AS ?discovered)  # ?src_a ?src_b
 ```sql
 
 ### TOTAL NUMBER OF ORGREG RESOURCES MATCHED
-PREFIX data: 
-PREFIX lens: 
-PREFIX opre: 
+PREFIX data: <http://risis.eu/dataset/>
+PREFIX lens: <http://risis.eu/lens/>
+PREFIX opre: <http://risis.eu/orgreg_20170718/ontology/predicate/>
 
 SELECT  ?orgregType (COUNT(DISTINCT ?src_a) AS ?total)
 {  BIND(lens:union_Orgreg_20170718_Eter_2014_Grid_20180625_H2020_2017_LeidenRanking_2015_Orgref_20180301_P565060110 AS ?lens)        
