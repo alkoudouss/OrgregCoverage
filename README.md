@@ -231,7 +231,7 @@ PREFIX opre: <http://risis.eu/orgreg_20170718/ontology/predicate/>
 
 SELECT  (COUNT(DISTINCT ?src_a) AS ?discovered) # ?src_a ?src_b
 {
-BIND(lens:union_Orgreg_20170718_Eter_2014_Grid_20180625_H2020_2017_LeidenRanking_2015_Orgref_20180301_P565060110 AS ?lens)
+    BIND(lens:union_Orgreg_20170718_Eter_2014_Grid_20180625_H2020_2017_LeidenRanking_2015_Orgref_20180301_P565060110 AS ?lens)
     GRAPH ?lens    { ?src_a ?sing ?src_b }
     GRAPH data:orgreg_20170718 
     { 
@@ -256,7 +256,7 @@ PREFIX opre: <http://risis.eu/orgreg_20170718/ontology/predicate/>
 
 SELECT  ?orgregType (COUNT(DISTINCT ?src_a) AS ?discovered)  # ?src_a ?src_b
 {
- BIND(lens:union_Orgreg_20170718_Eter_2014_Grid_20180625_H2020_2017_LeidenRanking_2015_Orgref_20180301_P565060110 AS ?lens)
+    BIND(lens:union_Orgreg_20170718_Eter_2014_Grid_20180625_H2020_2017_LeidenRanking_2015_Orgref_20180301_P565060110 AS ?lens)
     GRAPH ?lens    { ?src_a ?sing ?src_b }
     GRAPH data:orgreg_20170718
     {
@@ -285,7 +285,8 @@ PREFIX lens: <http://risis.eu/lens/>
 PREFIX opre: <http://risis.eu/orgreg_20170718/ontology/predicate/>
 
 SELECT  ?orgregType (COUNT(DISTINCT ?src_a) AS ?total)
-{  BIND(lens:union_Orgreg_20170718_Eter_2014_Grid_20180625_H2020_2017_LeidenRanking_2015_Orgref_20180301_P565060110 AS ?lens)        
+{  
+  BIND(lens:union_Orgreg_20170718_Eter_2014_Grid_20180625_H2020_2017_LeidenRanking_2015_Orgref_20180301_P565060110 AS ?lens)        
   GRAPH ?lens    { ?src_a ?sing ?src_b }
   GRAPH data:grid_20180625 { ?src_b a ?gridtype . }
   GRAPH data:orgreg_20170718 
